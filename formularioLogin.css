@@ -1,0 +1,38 @@
+/* FORM LOGIN*/
+label{
+	font-size: 12px;
+}
+input[type=text], [type=password], select {
+	width: 100%;
+	padding: 10px 20px;
+	margin: 4px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #A9A9A9;
+	color: white;
+	padding: 10px 20px;
+	margin: 4px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+}
+
+input[type=submit]:hover {
+	background-color: #DCDCDC;
+}
+
+.cform {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 8px;
+}

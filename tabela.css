@@ -1,0 +1,17 @@
+/*tabelas*/
+  
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {background-color: #f2CCf2;}
+tr:hover {background-color: coral;}
+
